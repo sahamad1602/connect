@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: ${DB_URL}
-    username: ${DB_USER}
-    password: ${DB_PASSWORD}
+    url: jdbc:postgresql://dpg-d7rjvi9o3t8c73d8sn8g-a.singapore-postgres.render.com:5432/mazdoor_db
+    username: mazdoor_db_user
+    password: 4pHsaSgHIR2PSldaBCiI1nsRIST14OZg
     driver-class-name: org.postgresql.Driver
 
   # JPA / Hibernate
